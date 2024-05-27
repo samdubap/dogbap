@@ -4,8 +4,8 @@ class Character {
         this.image.src = imageSrc;
         this.x = startX;
         this.y = startY;
-        this.width = 50;
-        this.height = 50;
+        this.width = 300;
+        this.height = 300;
         this.speed = 2;
     }
 
@@ -14,10 +14,10 @@ class Character {
     }
 
     update() {
-        if (this.x < 100) {
-            // this.x += this.speed;
+        if (this.y < 120) {
             this.y += this.speed;
         }
+        
     }
 
     enter(){

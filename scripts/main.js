@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
     canvas.height = 600;
 
     // 이미지 넣기
-    const background = new Background('src/background/cafeteria.jpg', canvas.width, canvas.height);
-    const character = new Character('src/characters/poony.png', 20, 50);
+    const background = new Background('src/background/dark_bar.png', canvas.width, canvas.height);
+    const character = new Character('src/characters/dog_hungry.png', 250, 50);
 
     function gameLoop() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
